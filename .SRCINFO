@@ -1,6 +1,6 @@
 pkgbase = sway-im
 	pkgdesc = Tiling Wayland compositor and replacement for the i3 window manager, with input method popups v2 support
-	pkgver = 1.7
+	pkgver = 1.8
 	pkgrel = 1
 	epoch = 1
 	url = https://swaywm.org/
@@ -34,15 +34,11 @@ pkgbase = sway-im
 	provides = sway
 	conflicts = sway
 	backup = etc/sway/config
-	source = https://github.com/swaywm/sway/releases/download/1.7/sway-1.7.tar.gz
-	source = https://github.com/swaywm/sway/releases/download/1.7/sway-1.7.tar.gz.sig
+	source = https://github.com/swaywm/sway/releases/download/1.8/sway-1.8.tar.gz
 	source = 50-systemd-user.conf
 	source = 0001-text_input-Implement-input-method-popups.patch
-	validpgpkeys = 34FF9526CFEF0E97A340E2E40FDE7BE0E88F5E48
-	validpgpkeys = 9DDA3B9FA5D58DD5392C78E652CB6609B22DA89A
-	sha512sums = 028cf5d504d5914bfb78d44156d6a290de660c5ed0638f4e2c56e5be76db9b0baeda035e1fa1ae23559016bd7e4312f7ff70c2fb4904df25358577c1a3d21243
-	sha512sums = SKIP
+	sha512sums = 0dce213939bb9b38becfac62a22cadf2dc4ed723a8fa06dcaaa3625491722e89dc92bf1734f010d0823513a45d91501c8ba6b4c71d2bf46a1e805938937bab7b
 	sha512sums = c2b7d808f4231f318e03789015624fd4cf32b81434b15406570b4e144c0defc54e216d881447e6fd9fc18d7da608cccb61c32e0e1fab2f1fe2750acf812d3137
-	sha512sums = b39325808c7327c47d3f024d355392387b65240f86d5391eafd9b52c70d89cb50192a58f3bac954abc90430806b73799a664c558e12fcdcf23529b77752c14cd
+	sha512sums = SKIP
 
 pkgname = sway-im
