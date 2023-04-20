@@ -5,7 +5,7 @@
 # Contributor: tinywrkb <tinywrkb@gmail.com>
 
 pkgname=sway-im
-pkgver=1.8
+pkgver=1.8.1
 epoch=1
 pkgrel=1
 pkgdesc='Tiling Wayland compositor and replacement for the i3 window manager, with input method popups v2 support'
@@ -41,7 +41,7 @@ source=("https://github.com/swaywm/sway/releases/download/$pkgver/sway-$pkgver.t
     #    "https://github.com/swaywm/sway/releases/download/$pkgver/sway-$pkgver.tar.gz.sig"
     "50-systemd-user.conf"
     "0001-text_input-Implement-input-method-popups.patch")
-sha512sums=('0dce213939bb9b38becfac62a22cadf2dc4ed723a8fa06dcaaa3625491722e89dc92bf1734f010d0823513a45d91501c8ba6b4c71d2bf46a1e805938937bab7b'
+sha512sums=('1504312a199608532e22336c5031e8f4749f5102ab321d13d97a1f93d49c8ec435e9097af729d8f7dfa81e2e96cee7de91cf4c04b6a7b7151ea740a1e43eb086'
     #    'SKIP'
     'c2b7d808f4231f318e03789015624fd4cf32b81434b15406570b4e144c0defc54e216d881447e6fd9fc18d7da608cccb61c32e0e1fab2f1fe2750acf812d3137'
     'SKIP')
