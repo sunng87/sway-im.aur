@@ -18,7 +18,7 @@ depends=(
     'json-c'
     'pango'
     'polkit'
-    'pcre'
+    'pcre2'
     'swaybg'
     'ttf-font'
     'wlroots'
