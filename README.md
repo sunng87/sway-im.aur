@@ -1,5 +1,8 @@
 [sway-im](https://aur.archlinux.org/packages/sway-im/)
 ========
+
+**This is a fork of sway-im package on AUR for sway 1.8**
+
 The [sway](https://swaywm.org/) package with [input method keyboard
 grab](https://github.com/swaywm/sway/pull/4932) support for Arch Linux.
 
